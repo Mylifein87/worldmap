@@ -1,0 +1,56 @@
+path {
+    fill: black;
+  }
+  
+  path:hover {
+    fill: rgb(80, 151, 210);
+  }
+
+  path.active {
+    fill: rgb(80, 154, 215);
+  }
+
+  h1{
+    color: rgb(80, 151, 210);
+    font-size: 40px;
+  }
+
+  .countryInfo {
+  background-color: rgb(80, 151, 210);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-family: Arial, sans-serif;
+  
+  }
+
+  .countryInfo h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+    text-align: center;
+  }
+  
+  .countryInfo p {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+  
+  .countryInfo .label {
+    font-weight: bold;
+    color: black;
+    margin-right: 20px;
+  }
+  
+  .countryInfo .value {
+    color: white;
+  }
+  
+ 
+  .countryInfo .fallback {
+    color: white;
+  }
